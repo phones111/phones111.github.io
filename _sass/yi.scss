@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #cb93b5;
+  font-family: "Work Sans", sans-serif;
+}
+
+#backstory {
+  flex: 1;
+  font-size: 72px;
+  line-height: 84px;
+  margin: 50px;
+  color: #d8ffca;
+  text-shadow: 1px 4px 4px rgba(166, 123, 236, 0.54);
+}
+
+#sidestory {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.cell {
+  text-transform: uppercase;
+  line-height: 28px;
+  padding: 35px 0;
+  text-shadow: 2px 2px 3px rgba(222, 61, 138, 0.69);
+  font-size: 24px;
+
+  a {
+    color: #fcff56;
+    text-decoration: none;
+  }
+}
